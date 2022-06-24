@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gestor de pedidos manual de usuario</title>
+    <title>Gestor de Pedidos Vivero "San Isidro" manual del usuario</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
 </head>
@@ -15,52 +15,55 @@
     <nav class=" py-3 navbar is-light is-mobile">
         <div class="container">
             <div class="navbar-brand">
-                <a class="navbar-item brand-text is-size-5 " style="background-color: transparent;">
-                    Gestor de Pedidos Vivero “San Isidro”
+                <a href="/../index.html" class="navbar-item brand-text is-size-5 "
+                    style="background-color: transparent;">
+                    Gestor de Pedidos Vivero "San Isidro"
                 </a>
             </div>
         </div>
     </nav>
 
-    <section class="section" style="">
+    <section class="section" style="background-color: #d4ffe9;">
         <div class="container">
-            <div class="mb-6 pb-3 columns is-multiline">
+            <div class="my-1 pb-3 columns is-multiline">
                 <div class="column is-12 is-6-desktop mx-auto ">
-                    <h2 class="mb-6 is-size-1 is-size-3-mobile has-text-weight-bold has-text-centered has-text-black">
-                        Manual de Usuario
+                    <h2 class="is-size-1 is-size-3-mobile has-text-weight-bold has-text-centered has-text-black">
+                        Manual del Usuario
                     </h2>
                 </div>
             </div>
         </div>
+
     </section>
 
     <div class="container">
+        <div class="pt-6" style="border-top: 1px solid #dee2e6;"></div>
         <div class="columns is-mobile is-multiline">
             <div class="column is-3">
                 <aside class="menu">
-                    <p class="menu-label">
+                    <p style="background-color: #d4ffe9;" class="menu-label has-text-black">
                         Preguntas frecuentes
                     </p>
                     <ul class="menu-list">
-                        <li><a>¿Cómo comenzar a trabajar?</a></li>
-                        <li><a>¿Cómo ingresar un nuevo usuario?</a></li>
-                        <li><a>¿Cómo agregar un nuevo pedido?</a></li>
+                        <li><a href="#pCT">¿Cómo comenzar a trabajar?</a></li>
+                        <li><a href="#pRC">¿Cómo registrar un nuevo cliente?</a></li>
+                        <li><a href="#pRP">¿Cómo agregar un nuevo pedido?</a></li>
                         <li><a>¿Cómo añadir un abono a un pedido exitente?</a></li>
                     </ul>
-                    <p class="menu-label">
+                    <p style="background-color: #d4ffe9;" class="menu-label has-text-black">
                         Secciones
                     </p>
                     <ul class="menu-list">
                         <li>
-                            <a>Cliente</a>
+                            <a href="#Cliente">Cliente</a>
                             <ul>
-                                <li><a>Agregar nuevo cliente</a></li>
+                                <li><a href="#RegistrarCliente">Registrar cliente</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a>Pedido</a>
+                            <a href="#Pedido">Pedido</a>
                             <ul>
-                                <li><a>Agregar nuevo pedido</a></li>
+                                <li><a href="#RegistrarPedido">Registrar pedido</a></li>
                                 <li><a>Agregar un abono</a></li>
                                 <li><a>Busqueda de pedidos</a></li>
                                 <li><a>Eliminar pedido</a></li>
@@ -72,49 +75,83 @@
             </div>
             <div class="column is-9">
                 <div class="columns is-centered">
-                    <h3 class="is-size-3 has-text-black has-text-weight-bold">Preguntas Frecuentes</h3>
+                    <h3 class="is-size-3 has-text-black has-text-weight-bold ">Preguntas Frecuentes</h3>
                 </div>
                 <div class="card my-3">
                     <div class="card-content">
                         <div class="content">
                             <div class="columns">
-                                <div class="column">
+                                <div id="pCT" class="column">
                                     <h6 class="is-size-5 has-text-black has-text-weight-bold">¿Cómo comenzar a trabajar?
                                     </h6>
-                                    <p class=" is-size-6 has-text-grey mb-5"> En cualquier momento puede ingresar a
-                                        nuestro
-                                        manual de
-                                        usuario donde encontrará una solución a sus problemas.
+                                    <p class=" is-size-6 has-text-black mb-5">
+                                        Para comenzar a trabajar con el gestor es necesario realizar la descarga de
+                                        esté. Para descargarlo
+                                        debemos ingresar a la <a href="../index.html">página web del producto</a> y
+                                        dirigirnos a la sección Descargas.
+                                        Aquí debemos descargar la versión 1.0, al hacer clic sobre el botón
+                                        correspondiente comenzará la
+                                        descarga automáticamente. Es importante recalcar que debemos tomar en cuenta los
+                                        requisitos indicados
+                                        en la página.
+
+                                    </p>
+                                    <p class=" is-size-6 has-text-black">
+                                        Una vez descargado el gestor, notaremos que es un archivo con extensión .jar el
+                                        cual podremos abrir como una aplicación cualquiera que esté instalada en su
+                                        computador.
+
+                                        <div class="">
+                                            <img class="mx-auto is-block img"  style="width: 70%;" src="../img/Descarga.png" alt="">
+                                        </div>
+
+                                    </p>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="columns">
+                                <div id="pRC" class="column">
+                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">¿Cómo registrar un nuevo
+                                        cliente?</h6>
+                                    <p class=" is-size-6 has-text-black mb-5">
+                                        Para registrar un nuevo cliente debemos realizar los siguientes pasos:
+                                        <ol>
+                                            <li>Abrir la aplicación.</li>
+                                            <li>En el menú lateral izquierdo seleccionar la opción <i>Registrar Cliente</i>.</li>
+                                            <li>Ingresar los datos del cliente.
+                                            <li>Hacer clic en el botón <i>Registrar cliente</i>.</li>
+                                        </ol>
+                                    </p>
+                                    <p class=" is-size-6 has-text-black">
+                                        Para obtener información más detallada debes dirigirte a la sección <a href="#RegistrarCliente">Registrar cliente</a> de este manual.
                                     </p>
                                 </div>
                             </div>
 
                             <div class="columns">
-                                <div class="column">
-                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">¿Cómo ingresar un nuevo
-                                        usuario?</h6>
-                                    <p class=" is-size-6 has-text-grey mb-5"> En cualquier momento puede ingresar a
-                                        nuestro
-                                        manual de
-                                        usuario donde encontrará una solución a sus problemas.
-                                    </p>
+                                <div id="pRP" class="column">
+                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">¿Cómo registrar un nuevo
+                                        pedido?</h6>
+                                        <p class=" is-size-6 has-text-black mb-5">
+                                            Para registrar un nuevo pedido debemos realizar los siguientes pasos:
+                                            <ol>
+                                                <li>Abrir la aplicación.</li>
+                                                <li>En el menú lateral izquierdo seleccionar la opción <i>Registrar Pedido</i>.</li>
+                                                <li>Ingresar los datos del pedido.
+                                                <li>Hacer clic en el botón <i>Registrar pedido</i>.</li>
+                                            </ol>
+                                        </p>
+                                        <p class=" is-size-6 has-text-black">
+                                            Para obtener información más detallada debes dirigirte a la sección <a href="#RegistrarPedido">Registrar pedido</a> de este manual.
+                                        </p>
                                 </div>
                             </div>
 
                             <div class="columns">
                                 <div class="column">
-                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">¿Cómo agregar un nuevo pedido?</h6>
-                                    <p class=" is-size-6 has-text-grey mb-5"> En cualquier momento puede ingresar a
-                                        nuestro
-                                        manual de
-                                        usuario donde encontrará una solución a sus problemas.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="columns">
-                                <div class="column">
-                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">¿Cómo añadir un abono a un pedido exitente?</h6>
+                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">¿Cómo añadir un abono a un
+                                        pedido exitente?</h6>
                                     <p class=" is-size-6 has-text-grey mb-5"> En cualquier momento puede ingresar a
                                         nuestro
                                         manual de
@@ -132,21 +169,51 @@
                     <h3 class="is-size-3 has-text-black has-text-weight-bold">Secciones</h3>
                 </div>
                 <div class="card my-3">
-                    
+
                     <div class="card-content">
                         <div class="content">
-                            
-                            <div class="columns is-centered my-3">
+
+                            <div id="Cliente" class="columns is-centered my-3">
                                 <h3 class="is-size-3 has-text-black has-text-weight-bold">Cliente</h3>
                             </div>
-                            <div class="columns">
+                            <div id="RegistrarCliente" class="columns">
                                 <div class="column">
-                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">Agregar nuevo cliente
+                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">Registrar cliente
                                     </h6>
-                                    <p class=" is-size-6 has-text-grey mb-5"> En cualquier momento puede ingresar a
-                                        nuestro
-                                        manual de
-                                        usuario donde encontrará una solución a sus problemas.
+                                    <p class=" is-size-6 has-text-grey mb-5">
+                                        Para registrar a un cliente nuevo dentro de la aplicación es necesario seguir
+                                        los siguientes pasos:
+                                    <ol>
+                                        <li>Abrir la aplicación.</li>
+                                        <li>En el menú lateral izquierdo seleccionar la opción <i>Registrar Cliente</i>.</li>
+                                        <li>Ingresar los datos del cliente.
+                                            <p class="is-size-6  my-4">
+                                                <div class="">
+                                                    <img class="mx-auto is-block img"  style="width: 70%;" src="../img/Registrar Cliente Form.png" alt="">
+                                                </div>
+                                                <p class="is-size-6  my-4">
+                                                Como se puede observar en la imagen, la ventana muestra una formulario
+                                                con campos para rellenar.
+                                                Estos campos corresponden con:
+                                            </p>
+                                                <ul>
+                                                <li>Nombre(s): El o los nombres del cliente.</li>
+                                                <li>Apellido(s): El o los apellidos del cliente.</li>
+                                                <li>Teléfono 1: Teléfono del cliente para contactarlo.</li>
+                                                <li>Teléfono 2: Segundo teléfono del cliente para poder contarlo, es
+                                                    opcional este campo.</li>
+                                                <li>Población: Nombre de la población donde recide el cliente.</li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>Hacer clic en el botón <i>Registrar cliente</i> y esperar la respuesta del sistema.
+                                        <p class="is-size-6  my-4">
+                                            <div class="">
+                                                <img class="mx-auto is-block img"  style="width: 70%;" src="../img/Registrar Cliente Form acept.jpg" alt="">
+                                            </div>
+                                        </p>
+                                        </li>
+                                    </ol>
                                     </p>
                                 </div>
                             </div>
@@ -155,21 +222,110 @@
                 </div>
 
                 <div class="card my-3">
-                    
+
                     <div class="card-content">
                         <div class="content">
-                            
-                            <div class="columns is-centered my-3">
+
+                            <div id="Pedido" class="columns is-centered my-3">
                                 <h3 class="is-size-3 has-text-black has-text-weight-bold">Pedido</h3>
                             </div>
-                            <div class="columns">
+                            <div id="RegistrarPedido" class="columns">
                                 <div class="column">
-                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">Agregar nuevo pedido
+                                    <h6 class="is-size-5 has-text-black has-text-weight-bold">Registrar pedido
                                     </h6>
-                                    <p class=" is-size-6 has-text-grey mb-5"> En cualquier momento puede ingresar a
-                                        nuestro
-                                        manual de
-                                        usuario donde encontrará una solución a sus problemas.
+                                    <p class=" is-size-6 has-text-grey mb-5"> Para registrar un pedido nuevo dentro de
+                                        la aplicación es necesario realizar
+                                        los siguientes pasos:
+                                    <ol>
+                                        <li>Abrir la aplicación.</li>
+                                        <li>En el menú lateral izquierdo seleccionar la opción <i>Registrar Pedido</i>.</li>
+                                        <li>Ingresar los datos del pedido.
+                                            <p class="is-size-6  my-4">
+                                                <div class="">
+                                                    <img class="mx-auto is-block img"  style="width: 70%;" src="../img/Registrar Pedido Form.png" alt="">
+                                                </div>
+                                                <p class="is-size-6  my-4">
+                                                Como se puede observar en la imagen, la ventana cuenta con 3 secciones
+                                                diferentes las cuales son:
+                                            </p>
+                                            <ul>
+                                                <li>Datos del cliente:
+                                                    <p class="is-size-6  my-4">
+                                                        En esta sección debemos indicar cuál de los clientes registrados
+                                                        en la aplicación realizará el pedido.
+                                                        Para ello podemos buscar por el nombre del cliente o
+                                                        seleccionarlo de la lista desplegable.
+                                                    <ul>
+                                                        <li>Buscar cliente por su nombre:
+                                                            <p>En el cuadro de texto escribimos el nombre del cliente y
+                                                                posteriormente damos clic en el botón <i>Buscar</i>. Si lo
+                                                                encuentra, en la lista desplegable aparecerá el nombre
+                                                                del cliente. De ser el caso contrario, la
+                                                                lista se quedará en blanco.
+                                                            </p>
+                                                        </li>
+
+                                                        <li>Buscar cliente en la lista desplegable:
+                                                            <p>Al hacer clic en la lista se mostrarán los nombres de
+                                                                todos
+                                                                los clientes registrados en la aplicación. En esté caso,
+                                                                basta
+                                                                con hacer clic sobre el nombre de un cliente para
+                                                                indicar
+                                                                que esté realizará el pedido. Podemos darnos cuenta que
+                                                                cliente
+                                                                fué escogido porque a un lado del nombre aparecerá una
+                                                                marca.
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                    </p>
+                                                </li>
+                                                <li>Datos de la(s) planta(s):
+                                                    <p class="is-size-6  my-4">
+                                                        En esta sección debemos indicar la información
+                                                        de la o las plantas que conformarán el pedido.
+                                                        Para ello debemos rellenar los campos correspondientes del
+                                                        formulario
+                                                        mostrado en esta sección.
+                                                        Las acciones que podemos realizar en está parte son:
+                                                    <ul>
+                                                        <li>Agregar más de una planta:
+                                                            <p>
+                                                                En caso de ser más de una planta debemos hacer clic
+                                                                sobre
+                                                                el botón <i>+ Agregar planta</i>, este botón creará una pestaña
+                                                                nueva donde aparecerá un formulario identico al que se
+                                                                encuentra
+                                                                por defecto.
+                                                            </p>
+                                                        </li>
+                                                        <li>Eliminar una planta:
+                                                            <p>
+                                                                Si queremos eliminar una de estás pestañas solo debemos
+                                                                hacer clic
+                                                                sobre la x que aparece al lado del nombre de la misma.
+                                                                La única pesteña
+                                                                que no se puede eliminar es la que aparece por defecto
+                                                                en la ventana incial.
+                                                            </p>
+                                                        </li>
+                                                    </ul>
+                                                    </p>
+                                                </li>
+                                                <li>Datos del pedido:
+                                                    <p class="is-size-6  my-4">
+                                                        En esta sección debemos indicar la información
+                                                        relacionada con el pedido.
+                                                        Para ello debemos rellenar los campos correspondientes del
+                                                        formulario mostrado en esta sección.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                            </p>
+                                        </li>
+                                        <li>Hacer clic en el botón <i>Registrar pedido</i> y esperar la respuesta del sistema.</li>
+                                    </ol>
                                     </p>
                                 </div>
                             </div>
@@ -225,7 +381,7 @@
                         </div>
                     </div>
                 </div>
-                
+
 
             </div>
         </div>
